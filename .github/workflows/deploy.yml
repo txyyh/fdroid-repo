@@ -14,8 +14,8 @@ jobs:
     steps:
       - name: Setup fdroidserver and aapt
         run: |
-          sudo apt update
-          sudo apt install fdroidserver aapt -y
+          sudo apt-get update
+          sudo apt-get install fdroidserver aapt -y
 
       - name: Checkout
         uses: actions/checkout@v4
