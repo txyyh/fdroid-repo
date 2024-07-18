@@ -41,7 +41,7 @@ jobs:
           sed -i 's/VERSION/$VERSION/g' ./metadata/com.follow.clash.yml
           sed -i 's/VERSIONCODE/$VERSIONCODE/g' ./metadata/com.follow.clash.yml
 
-          rm ./tmp-apks/version.txt'
+          rm ./tmp-apks/version.txt
           cd ..
 
       - name: Update fdroidrepo
