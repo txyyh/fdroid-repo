@@ -22,7 +22,6 @@ jobs:
 
       - name: Move apks
         run: |
-          mkdir ./fdroid/repo/
           mv ./tmp/*.apk ./fdroid/repo/
           rm -r ./tmp/
 
