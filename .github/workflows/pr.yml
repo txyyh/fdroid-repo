@@ -13,11 +13,8 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Create Pull Request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr create --fill-first --base main
+          gh pr create --head $GITHUB_REF --base main --title ${{ github.event.head_commit.message }} --body ${{ github.event.head_commit.message }}
