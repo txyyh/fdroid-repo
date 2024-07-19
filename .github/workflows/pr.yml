@@ -11,10 +11,16 @@ jobs:
   pr:
     runs-on: ubuntu-latest
     permissions:
+      contents: write
       pull-requests: write
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Create Pull Request
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh pr create --repo txyyh/fdroid-repo --head $GITHUB_REF --base main --title "${{ github.event.head_commit.message }}" --body "${{ github.event.head_commit.message }}"
+        uses: peter-evans/create-pull-request@v6.1.0
+        with:
+          branch: ${{ github.ref }}
+          base: main
+          title: '${{ github.event.head_commit.message }}'
+          body: '${{ github.event.head_commit.message }}'
