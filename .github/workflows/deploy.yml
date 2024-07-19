@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'tmp/*.apk'
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:

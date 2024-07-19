@@ -1,0 +1,20 @@
+name: pr
+
+on:
+  push:
+    paths:
+      - 'tmp/*.apk'
+    branches:
+      - action-pr
+
+jobs:
+  pr:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create --fill --base main
