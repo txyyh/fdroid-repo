@@ -10,19 +10,17 @@
     "--use-date-from-apk"
   ],
   "disabled": [],
-  "endTimestamp": 1721397706638,
+  "endTimestamp": 1721876571005,
   "failedBuilds": {},
   "jarsigner": "/usr/lib/jvm/default-java/bin/jarsigner",
   "keytool": "/usr/lib/jvm/default-java/bin/keytool",
-  "needsUpdate": [
-    "com.follow.clash"
-  ],
+  "needsUpdate": [],
   "noPackages": [
     "com.follow.clash"
   ],
   "noUpdateCheck": [
     "com.follow.clash"
   ],
-  "startTimestamp": 1721397695000,
+  "startTimestamp": 1721876564000,
   "subcommand": "update"
 }

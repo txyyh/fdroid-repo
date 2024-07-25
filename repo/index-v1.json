@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1721397704000,
+    "timestamp": 1721876568000,
     "version": 20001,
     "name": "FlClash",
     "icon": "icon.png",
@@ -22,15 +22,15 @@
         "Connectivity"
       ],
       "changelog": "https://github.com/chen08209/FlClash/releases",
-      "suggestedVersionName": "0.8.44",
-      "suggestedVersionCode": "202409183",
+      "suggestedVersionName": "0.8.45",
+      "suggestedVersionCode": "202409201",
       "issueTracker": "https://github.com/chen08209/FlClash/issues",
       "license": "GPL-3.0-or-later",
       "name": "FlClash",
       "sourceCode": "https://github.com/chen08209/FlClash",
-      "added": 1721397693000,
+      "added": 1721876563000,
       "packageName": "com.follow.clash",
-      "lastUpdated": 1721397693000,
+      "lastUpdated": 1721876563000,
       "localized": {
         "en-US": {
           "description": "\u2708\ufe0f Multi-platform: Android, Windows, macOS and Linux\n\n\ud83d\udcbb Adaptive multiple screen sizes, Multiple color themes available\n\n\ud83d\udca1 Based on Material You Design, Surfboard-like UI\n\n\u2601\ufe0f Supports data sync via WebDAV\n\n\u2728 Support subscription link, Dark mode",
@@ -48,18 +48,18 @@
   "packages": {
     "com.follow.clash": [
       {
-        "added": 1721397693000,
-        "apkName": "FlClash-0.8.44-android-armeabi-v7a.apk",
-        "hash": "f1145f8e9216df71b999437b6d3a65af68d7b29049948e3aa28a1344836ce70b",
+        "added": 1721876563000,
+        "apkName": "FlClash-0.8.45-android-x86_64.apk",
+        "hash": "dc5c8355da69570da5ca1d14174a088d2f2ab0798d5ae108b19217ad5edf993f",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
-          "armeabi-v7a"
+          "x86_64"
         ],
         "packageName": "com.follow.clash",
-        "sig": "5f5558f2d77be66d7bed4e3e9132a4a8",
-        "signer": "c8683c4be1ae11eeffa5e4cdc368a572d5b5caae9ddb5fe5419745693ef1b6b7",
-        "size": 38721681,
+        "sig": "01d20204fe36565bf08806d0249b75a9",
+        "signer": "2859e236b6c1c6073773752678c52e8e902a9503ae9beed6729ca999c376841c",
+        "size": 40154084,
         "targetSdkVersion": 34,
         "uses-permission": [
           [
@@ -107,8 +107,134 @@
             null
           ]
         ],
-        "versionCode": 202408183,
-        "versionName": "0.8.44"
+        "versionCode": 202411201,
+        "versionName": "0.8.45"
+      },
+      {
+        "added": 1721876563000,
+        "apkName": "FlClash-0.8.45-android-arm64-v8a.apk",
+        "hash": "e6083bb3fbd4c7e9c714acca10cbdd8d06479b0d62ca2738cb32cd89869e2446",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.follow.clash",
+        "sig": "01d20204fe36565bf08806d0249b75a9",
+        "signer": "2859e236b6c1c6073773752678c52e8e902a9503ae9beed6729ca999c376841c",
+        "size": 38854371,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "com.follow.clash.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 202409201,
+        "versionName": "0.8.45"
+      },
+      {
+        "added": 1721876563000,
+        "apkName": "FlClash-0.8.45-android-armeabi-v7a.apk",
+        "hash": "3d83de4cb9be2e40cfedfcfc27f081a49afd41c7871faf5f19fd6612f54458a5",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "com.follow.clash",
+        "sig": "01d20204fe36565bf08806d0249b75a9",
+        "signer": "2859e236b6c1c6073773752678c52e8e902a9503ae9beed6729ca999c376841c",
+        "size": 38573095,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "com.follow.clash.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 202408201,
+        "versionName": "0.8.45"
       }
     ]
   }
